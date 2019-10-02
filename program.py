@@ -27,7 +27,7 @@ elif((month == 12 and day >= 23) or (month == 1 and day <=20)):
 	zodiac = "Capricorn"
 elif((month == 1 and day >= 21) or (month == 2 and day <=19)):
 	zodiac = "Aquarius"
-else
+else:
 	zodiac = "Pisces"
 
 print("\n\n" + name + ", your zodiac sign is: " + zodiac + "\n")
